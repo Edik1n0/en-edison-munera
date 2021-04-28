@@ -1,0 +1,135 @@
+@import "variables";
+
+.perfil {
+  margin-top: 80px;
+  display: flex;
+
+  .perfil__img {
+    margin: 40px;
+    img {
+      width: 300px;
+      border-radius: 6px;
+    }
+  }
+  .container {
+    display: block;
+    justify-content: start;
+
+    .perfil__txt {
+      margin-top: 80px;
+      p {
+        text-align: center;
+      }
+    }
+
+    .perfil__icons {
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        li {
+          margin: 50px;
+          img {
+            width: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .container {
+    .perfil {
+      display: block;
+      .perfil__img {
+        margin: 0px;
+        img {
+          width: 280px;
+          margin-left: 10px;
+        }
+      }
+      .container {
+        display: block;
+        .perfil__icons {
+          ul {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .container {
+    .perfil {
+      display: block;
+      .perfil__img {
+        margin: 0px;
+        img {
+          width: 280px;
+          margin-left: 34px;
+        }
+      }
+      .container {
+        display: block;
+        .perfil__icons {
+          ul {
+            display: block;
+            margin-left: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .container {
+    .perfil {
+      display: block;
+      .perfil__img {
+        margin: 0px;
+        img {
+          width: 280px;
+          margin-left: 54px;
+        }
+      }
+      .container {
+        display: block;
+        .perfil__icons {
+          ul {
+            display: block;
+            margin-left: 90px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    .perfil {
+      display: block;
+      .perfil__img {
+        margin: 0px;
+        img {
+          width: 280px;
+          margin-left: 54px;
+        }
+      }
+      .container {
+        display: block;
+        .perfil__icons {
+          ul {
+            display: block;
+            margin-left: 90px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+@import "variables";
+
+.habs {
+  margin-top: 80px;
+  .habs__header {
+    width: 100%;
+    background: $red;
+    height: 60px;
+    color: $blanco;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .habs__body {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .container {
+      display: block;
+      .idiomas {
+        margin: 20px;
+        padding: 10px;
+        .idiomas__header {
+          background: $red;
+          width: 100%;
+          padding: 8px;
+          color: $blanco;
+          text-align: center;
+        }
+        .idiomas__body {
+          margin: 20px;
+          ul {
+            list-style: none;
+            li {
+              margin: 20px;
+            }
+          }
+        }
+      }
+
+      .herramientas {
+        margin: 20px;
+        padding: 10px;
+        .herr__head {
+          width: 100%;
+          background: $red;
+          height: 60px;
+          color: $blanco;
+          text-align: center;
+          padding-top: 14px;
+        }
+        .herr__body {
+          margin: 20px;
+          ul {
+            list-style: none;
+            li {
+              margin: 20px;
+              .progress {
+                height: 26px;
+                p {
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .dist {
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .habs {
+    .habs__header {
+      height: 90px;
+    }
+    .habs__body {
+      .container {
+        display: block;
+        margin: 0px;
+        padding: 0x;
+
+        .idiomas,
+        .herramientas,
+        .dist {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+
+          .herr__head {
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .habs {
+    .habs__header {
+      height: 90px;
+    }
+    .habs__body {
+      .container {
+        display: block;
+        margin: 0px;
+        padding: 0x;
+
+        .idiomas,
+        .herramientas,
+        .dist {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+
+          .herr__head {
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .habs {
+    .habs__header {
+      height: 90px;
+    }
+    .habs__body {
+      .container {
+        display: block;
+        margin: 0px;
+        padding: 0x;
+
+        .idiomas,
+        .herramientas,
+        .dist {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+
+          .herr__head {
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .habs {
+    .habs__header {
+      height: 90px;
+    }
+    .habs__body {
+      .container {
+        display: block;
+        margin: 0px;
+        padding: 0x;
+
+        .idiomas,
+        .herramientas,
+        .dist {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+
+          .herr__head {
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+}

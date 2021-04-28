@@ -1,0 +1,62 @@
+@import "variables";
+
+.wp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  a {
+    display: flex;
+    text-decoration: none;
+    img {
+      width: 100px;
+    }
+
+    p {
+      opacity: 0%;
+      transition: all 0.8s;
+      background: $red;
+      color: $blanco;
+      display: flex;
+      align-items: center;
+      width: 180px;
+      height: 60px;
+      padding: 10px;
+      text-align: center;
+      margin-right: 10px;
+      margin-top: 20px;
+      border-radius: 6px;
+    }
+
+    &:hover {
+      text-decoration: none;
+      p {
+        opacity: 100%;
+        transition: all 0.8s;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .wp {
+    display: none;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .wp {
+    display: none;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .wp {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .wp {
+    display: none;
+  }
+}

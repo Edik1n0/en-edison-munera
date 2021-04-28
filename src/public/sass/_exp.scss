@@ -1,0 +1,209 @@
+@import "variables";
+
+.exp {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  .exp__header {
+    background: $red;
+    color: $blanco;
+    padding-top: 10px;
+    height: 60px;
+    text-align: center;
+  }
+  .exp__body {
+    display: block;
+    justify-content: space-evenly;
+
+    .roi,
+    .socya,
+    .gjm,
+    .ajm,
+    .teacompano {
+      margin-top: 40px;
+      padding: 10px;
+
+      ul {
+        list-style: none;
+        padding-left: 80px;
+        margin-bottom: 30px;
+
+        li {
+          a {
+            color: $negro;
+            text-decoration: none;
+            &:hover {
+              transition: all 0.6s;
+              color: $red;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      .roi-b,
+      .socya-b,
+      .gjm-b,
+      .ajm-b,
+      .ta-b {
+        margin-top: 20px;
+      }
+
+      .roi-a,
+      .socya-a,
+      .gjm-a,
+      .ajm-a,
+      .ta-a,
+      .roi-d,
+      .socya-d,
+      .gjm-d,
+      .ajm-d,
+      .ta-d {
+        display: flex;
+        justify-content: space-evenly;
+        background: $red;
+        color: $blanco;
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .exp {
+    .exp__body {
+      .roi,
+      .socya,
+      .gjm,
+      .ajm,
+      .teacompano {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+
+        ul {
+          padding-left: 0px;
+        }
+
+        .roi-a,
+        .socya-a,
+        .gjm-a,
+        .ajm-a,
+        .ta-a,
+        .roi-d,
+        .socya-d,
+        .gjm-d,
+        .ajm-d,
+        .ta-d {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .exp {
+    .exp__body {
+      .roi,
+      .socya,
+      .gjm,
+      .ajm,
+      .teacompano {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+
+        ul {
+          padding-left: 0px;
+        }
+
+        .roi-a,
+        .socya-a,
+        .gjm-a,
+        .ajm-a,
+        .ta-a,
+        .roi-d,
+        .socya-d,
+        .gjm-d,
+        .ajm-d,
+        .ta-d {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .exp {
+    .exp__body {
+      .roi,
+      .socya,
+      .gjm,
+      .ajm,
+      .teacompano {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+
+        ul {
+          padding-left: 0px;
+        }
+
+        .roi-a,
+        .socya-a,
+        .gjm-a,
+        .ajm-a,
+        .ta-a,
+        .roi-d,
+        .socya-d,
+        .gjm-d,
+        .ajm-d,
+        .ta-d {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .exp {
+    .exp__body {
+      .roi,
+      .socya,
+      .gjm,
+      .ajm,
+      .teacompano {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+
+        ul {
+          padding-left: 0px;
+        }
+
+        .roi-a,
+        .socya-a,
+        .gjm-a,
+        .ajm-a,
+        .ta-a,
+        .roi-d,
+        .socya-d,
+        .gjm-d,
+        .ajm-d,
+        .ta-d {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
